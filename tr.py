@@ -8,10 +8,25 @@ def tr_replace(text, str1, str2):
     new_text = text
 
     if is_range(str1):
-        for c in char_range(str1[0], str1[2]):
-            new_text = new_text.replace(c, str2)
+        if is_range(str2):
+            # Original and replacement are ranges
+            str1_range_list = list(char_range(str1[0], str1[2]))
+            str2_range_list = list(char_range(str2[0], str2[2]))
+
+            for i in range(len(str1_range_list)):
+                replacement = str2_range_list[i] if i < len(str2_range_list) else str2_range_list[-1]
+                new_text = new_text.replace(str1_range_list[i], replacement)
+        else:
+            # Original is a range, replacement is a fixed string
+            for c in char_range(str1[0], str1[2]):
+                new_text = new_text.replace(c, str2)
     else:
-        new_text = new_text.replace(str1, str2)
+        if is_range(str2):
+            # Original is a fixed string, replacement is a range
+            new_text = new_text.replace(str1, str2[0])
+        else:
+            # Original is a fixed string, replacement is a fixed string
+            new_text = new_text.replace(str1, str2)
 
     return new_text
 

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58fcb3c1-37f6-40c0-a001-eef7410af832" name="Changes" comment="Updated readme.">
+    <list default="true" id="58fcb3c1-37f6-40c0-a001-eef7410af832" name="Changes" comment="Example file demonstrating char range generator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tr.py" beforeDir="false" afterPath="$PROJECT_DIR$/tr.py" afterDir="false" />
     </list>
@@ -146,13 +146,31 @@
       <option name="project" value="LOCAL" />
       <updated>1704079861708</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Working function for:&#10;- Replacing a specific string with a specific string.&#10;- Replacing a range of characters with a specific string.">
+      <option name="closed" value="true" />
+      <created>1704098473455</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704098473455</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Example file demonstrating char range generator">
+      <option name="closed" value="true" />
+      <created>1704098506499</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704098506499</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Learned how to use argparse at a basic level" />
     <MESSAGE value="Take 2 strings, and do string replacement using those strings on user input." />
     <MESSAGE value="Updated readme." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated readme." />
+    <MESSAGE value="Working function for:&#10;- Replacing a specific string with a specific string.&#10;- Replacing a range of characters with a specific string." />
+    <MESSAGE value="Example file demonstrating char range generator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Example file demonstrating char range generator" />
   </component>
 </project>
