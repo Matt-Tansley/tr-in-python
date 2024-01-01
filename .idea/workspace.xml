@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58fcb3c1-37f6-40c0-a001-eef7410af832" name="Changes" comment="Learned how to use argparse at a basic level">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tr.py" beforeDir="false" afterPath="$PROJECT_DIR$/tr.py" afterDir="false" />
+    <list default="true" id="58fcb3c1-37f6-40c0-a001-eef7410af832" name="Changes" comment="Take 2 strings, and do string replacement using those strings on user input.">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,11 +97,28 @@
       <option name="project" value="LOCAL" />
       <updated>1704076963523</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Take 2 strings, and do string replacement using those strings on user input.">
+      <option name="closed" value="true" />
+      <created>1704079663526</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704079663526</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Take 2 strings, and do string replacement using those strings on user input.">
+      <option name="closed" value="true" />
+      <created>1704079674378</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704079674378</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Learned how to use argparse at a basic level" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learned how to use argparse at a basic level" />
+    <MESSAGE value="Take 2 strings, and do string replacement using those strings on user input." />
+    <option name="LAST_COMMIT_MESSAGE" value="Take 2 strings, and do string replacement using those strings on user input." />
   </component>
 </project>
